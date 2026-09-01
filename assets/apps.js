@@ -48,9 +48,9 @@
     build: function (w) {
       w.body.innerHTML =
         '<div class="marquee"><span>★ Welcome to MOX RUBY ★ your Old School Magic 93/94 command center ★ NEOS / Atlantic rules ★ best viewed in Netscape Navigator at 800x600 ★</span></div>' +
-        '<div class="uc"><img src="/assets/gifs/under-construction.gif" alt="under construction" height="30"> ' +
+        '<div class="uc"><img src="assets/gifs/under-construction.gif" alt="under construction" height="30"> ' +
         '<span class="blink" style="color:#c00;font-weight:bold">NEW!</span> ' +
-        '<img src="/assets/gifs/under-construction.gif" alt="under construction" height="30"></div>' +
+        '<img src="assets/gifs/under-construction.gif" alt="under construction" height="30"></div>' +
         '<h3 style="margin:6px 0">Mox Ruby</h3>' +
         '<p>A little corner of the World Wide Web for <b>Old School Magic: The Gathering</b> (the good stuff, 1993-94). ' +
         'Everything here runs on the <b>NEOS / Atlantic 93/94</b> card pool.</p>' +
@@ -94,7 +94,7 @@
     name: "Old School Precons", glyph: "🃏", title: "Old School Precons", width: 560, height: 460,
     build: function (w) {
       w.body.innerHTML = '<p class="muted">Loading decklists...</p>';
-      fetch("/data/decks.json").then(function (r) { return r.json(); }).then(function (data) {
+      fetch("data/decks.json").then(function (r) { return r.json(); }).then(function (data) {
         renderList(w, data.decks);
       }).catch(function () { w.body.innerHTML = "<p>Could not load decks.json.</p>"; });
     }
@@ -224,7 +224,7 @@
         '<label>Cards: <input class="field95" id="pbSize" type="number" value="15" min="1" max="45" style="width:52px"></label>' +
         '<button class="btn95" id="pbGo">Open Pack</button></div>' +
         '<p class="muted" style="font-size:11px;margin:6px 0 0">Weighted by rarity. Old sets vary; this is a fun approximation.</p></fieldset>' +
-        '<div id="pbOut"><div class="uc"><img src="/assets/gifs/under-construction.gif" height="30"><p>Pick a set and open a pack!</p></div></div>';
+        '<div id="pbOut"><div class="uc"><img src="assets/gifs/under-construction.gif" height="30"><p>Pick a set and open a pack!</p></div></div>';
       var out = w.body.querySelector("#pbOut");
       w.body.querySelector("#pbGo").onclick = function () {
         var code = w.body.querySelector("#pbSet").value, size = Math.max(1, Math.min(45, +w.body.querySelector("#pbSize").value || 15));
@@ -282,7 +282,7 @@
       var sets = ["Arabian_Nights", "Antiquities", "Legends", "The_Dark", "Fallen_Empires", "Unlimited", "Revised", "Ice_Age"];
       var grid = h('<div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))"></div>');
       sets.forEach(function (s) {
-        var t = h('<div style="text-align:center"><img loading="lazy" src="/assets/sets/' + s + '.jpg" alt="' + s + '" style="width:100%;border:2px solid #808080"><div style="font-size:12px">' + s.replace(/_/g, " ") + "</div></div>");
+        var t = h('<div style="text-align:center"><img loading="lazy" src="assets/sets/' + s + '.jpg" alt="' + s + '" style="width:100%;border:2px solid #808080"><div style="font-size:12px">' + s.replace(/_/g, " ") + "</div></div>");
         grid.appendChild(t);
       });
       w.body.innerHTML = "<p>Original set art (booster/box images).</p>";
@@ -374,7 +374,7 @@
         ["Scryfall (card database)", "https://scryfall.com/"],
         ["Ted Kwartler (site author)", "https://tedkwartler.com/"]
       ];
-      w.body.innerHTML = '<p><img src="/assets/gifs/under-construction.gif" height="24"> The Old School web ring:</p>';
+      w.body.innerHTML = '<p><img src="assets/gifs/under-construction.gif" height="24"> The Old School web ring:</p>';
       var ul = h('<ul style="margin:0 0 0 18px;padding:0;line-height:1.9"></ul>');
       links.forEach(function (l) { ul.appendChild(h('<li><a href="' + l[1] + '" target="_blank" rel="noopener">' + esc(l[0]) + "</a></li>")); });
       w.body.appendChild(ul);

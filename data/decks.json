@@ -125,20 +125,50 @@
       "side": [[2, "Deathgrip"], [3, "Terror"], [2, "Tsunami"]]
     },
     {
-      "name": "Winter Orb Prison",
-      "archetype": "R Prison (best guess for 'a card every turn')",
+      "name": "Sligh",
+      "archetype": "R Aggro (the mana-curve deck)",
       "colors": ["R"],
-      "author": "classic archetype",
-      "notes": "Best guess for the deck you were thinking of: Winter Orb locks everyone to untapping one land per turn, but your Fellwar Stones, Sol Ring, and Black Lotus keep your mana flowing while the opponent is stuck playing about one card a turn. Icy Manipulator and Meekstone hold their board down; burn finishes. Tell me if you meant a different mono-red deck.",
+      "author": "Paul Sligh / Jay Schneider (classic)",
+      "notes": "The original curve-out aggro deck: a threat for every point of mana, so you are playing a card every single turn. Little red creatures backed by burn to the face.",
       "main": [
-        [4, "Mishra's Factory"], [1, "Strip Mine"], [19, "Mountain"],
-        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Sol Ring"], [4, "Fellwar Stone"],
-        [4, "Winter Orb"], [2, "Icy Manipulator"], [2, "Meekstone"],
-        [4, "Goblin Balloon Brigade"], [4, "Dragon Whelp"],
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [15, "Mountain"],
+        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Sol Ring"],
+        [4, "Mons's Goblin Raiders"], [4, "Goblin Balloon Brigade"], [4, "Ironclaw Orcs"], [4, "Orcish Artillery"], [4, "Brothers of Fire"], [4, "Dragon Whelp"],
         [4, "Lightning Bolt"], [4, "Chain Lightning"], [3, "Fireball"],
         [1, "Wheel of Fortune"], [1, "Chaos Orb"]
       ],
-      "side": [[3, "Shatter"], [2, "Red Elemental Blast"], [2, "Detonate"]]
+      "side": [[3, "Shatter"], [3, "Red Elemental Blast"], [2, "Detonate"]]
+    },
+    {
+      "name": "Millstone",
+      "archetype": "U/W Control (mill)",
+      "colors": ["U", "W"],
+      "author": "classic archetype",
+      "notes": "Counter, sweep, and stall behind Moat, then deck the opponent out with four Millstones. Patience is the wincon.",
+      "main": [
+        [4, "Tundra"], [4, "Mishra's Factory"], [1, "Strip Mine"], [1, "Library of Alexandria"], [11, "Island"], [3, "Plains"],
+        [1, "Black Lotus"], [1, "Mox Sapphire"], [1, "Mox Pearl"], [1, "Sol Ring"],
+        [4, "Millstone"],
+        [4, "Counterspell"], [1, "Mana Drain"], [2, "Power Sink"], [4, "Swords to Plowshares"], [2, "Wrath of God"], [2, "Blue Elemental Blast"],
+        [1, "Ancestral Recall"], [1, "Braingeyser"], [1, "Timetwister"], [1, "Time Walk"], [1, "Jayemdae Tome"], [2, "Disrupting Scepter"],
+        [1, "Icy Manipulator"], [2, "Moat"], [1, "Demonic Tutor"], [1, "Balance"], [1, "Chaos Orb"]
+      ],
+      "side": [[2, "Blue Elemental Blast"], [2, "Circle of Protection: Red"], [1, "Balance"], [2, "Disenchant"]]
+    },
+    {
+      "name": "Mono-Green Stompy",
+      "archetype": "G Aggro (Berserk beats)",
+      "colors": ["G"],
+      "author": "classic archetype",
+      "notes": "Mana elves into fat green creatures, then Berserk and Giant Growth to end it in one swing.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [16, "Forest"],
+        [1, "Black Lotus"], [1, "Mox Emerald"], [1, "Sol Ring"],
+        [4, "Llanowar Elves"], [4, "Scryb Sprites"], [4, "Ghazban Ogre"], [4, "Whirling Dervish"], [4, "Erhnam Djinn"], [4, "Argothian Pixies"],
+        [4, "Giant Growth"], [4, "Berserk"],
+        [1, "Regrowth"], [2, "Fog"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Whirling Dervish"], [2, "Tsunami"], [2, "Fog"]]
     }
   ]
 }

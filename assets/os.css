@@ -1,7 +1,7 @@
 /* moxruby.com - Windows desktop (XP shell, Win95 chrome) for Old School MTG */
 @font-face {
   font-family: "MS Sans Serif";
-  src: url("/assets/ms-sans-serif.ttf") format("truetype");
+  src: url("ms-sans-serif.ttf") format("truetype");
   font-display: swap;
 }
 :root {
