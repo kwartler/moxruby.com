@@ -1,0 +1,98 @@
+{
+  "note": "Classic Old School 93/94 archetypes, built to be legal for the NEOS / Atlantic 93/94 card pool. Community/archetype lists for learning, not an official product.",
+  "decks": [
+    {
+      "name": "The Deck",
+      "archetype": "U/W/r Control (Weissman)",
+      "colors": ["W", "U", "R"],
+      "author": "Brian Weissman (classic)",
+      "notes": "The original control deck: card advantage, restricted power, and inevitability. Grind the game to a halt, then win with a Serra Angel.",
+      "main": [
+        [3, "Tundra"], [2, "Plateau"], [6, "Island"], [5, "Plains"], [1, "City of Brass"],
+        [4, "Mishra's Factory"], [1, "Library of Alexandria"], [1, "Strip Mine"],
+        [1, "Black Lotus"], [1, "Mox Sapphire"], [1, "Mox Pearl"], [1, "Sol Ring"], [1, "Jayemdae Tome"], [2, "Disrupting Scepter"],
+        [1, "Ancestral Recall"], [1, "Braingeyser"], [1, "Timetwister"], [1, "Time Walk"],
+        [1, "Demonic Tutor"], [1, "Regrowth"], [1, "Mind Twist"], [1, "Balance"],
+        [4, "Counterspell"], [1, "Mana Drain"], [2, "Power Sink"], [3, "Swords to Plowshares"],
+        [2, "Red Elemental Blast"], [2, "Blue Elemental Blast"], [1, "Chaos Orb"],
+        [2, "Wrath of God"], [1, "Moat"], [1, "The Abyss"], [1, "Amnesia"], [2, "Serra Angel"]
+      ],
+      "side": [[2, "Divine Offering"], [2, "Circle of Protection: Red"], [1, "Balance"], [2, "Blue Elemental Blast"]]
+    },
+    {
+      "name": "Erhnamgeddon",
+      "archetype": "G/W Aggro-Control",
+      "colors": ["G", "W"],
+      "author": "classic archetype",
+      "notes": "Drop an Erhnam Djinn, then Armageddon with mana elves ahead. Fast, fair, and mean.",
+      "main": [
+        [4, "Savannah"], [4, "Mishra's Factory"], [1, "Strip Mine"], [1, "Library of Alexandria"], [8, "Forest"], [5, "Plains"],
+        [1, "Black Lotus"], [1, "Mox Emerald"], [1, "Mox Pearl"], [1, "Sol Ring"],
+        [4, "Llanowar Elves"], [4, "Savannah Lions"], [4, "Erhnam Djinn"], [4, "Whirling Dervish"], [1, "Ghazban Ogre"], [2, "Serra Angel"],
+        [4, "Swords to Plowshares"], [4, "Armageddon"], [2, "Disenchant"], [1, "Regrowth"], [1, "Balance"], [1, "Demonic Tutor"], [1, "Chaos Orb"]
+      ],
+      "side": [[2, "Disenchant"], [3, "Blue Elemental Blast"], [2, "Whirling Dervish"]]
+    },
+    {
+      "name": "Mono-Red Burn",
+      "archetype": "R Aggro / Sligh",
+      "colors": ["R"],
+      "author": "classic archetype",
+      "notes": "Little red men and a fistful of burn. Bolt them, Earthquake them, Fireball their face.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [12, "Mountain"],
+        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Sol Ring"],
+        [4, "Kird Ape"], [4, "Ironclaw Orcs"], [4, "Orcish Artillery"], [3, "Dragon Whelp"], [4, "Uthden Troll"],
+        [4, "Lightning Bolt"], [4, "Chain Lightning"], [4, "Fireball"], [4, "Disintegrate"], [3, "Earthquake"],
+        [1, "Wheel of Fortune"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Shatter"], [3, "Red Elemental Blast"], [2, "Detonate"]]
+    },
+    {
+      "name": "UR Counterburn",
+      "archetype": "U/R Tempo",
+      "colors": ["U", "R"],
+      "author": "classic archetype",
+      "notes": "Serendib Efreet beats down while Counterspell and burn protect the clock.",
+      "main": [
+        [4, "Volcanic Island"], [4, "Mishra's Factory"], [1, "Strip Mine"], [1, "Library of Alexandria"], [7, "Island"], [3, "Mountain"],
+        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Mox Sapphire"], [1, "Sol Ring"],
+        [4, "Serendib Efreet"], [3, "Dragon Whelp"],
+        [4, "Counterspell"], [1, "Mana Drain"], [2, "Power Sink"],
+        [4, "Lightning Bolt"], [4, "Chain Lightning"], [4, "Psionic Blast"], [3, "Fireball"],
+        [1, "Ancestral Recall"], [1, "Braingeyser"], [1, "Timetwister"], [1, "Time Walk"], [1, "Wheel of Fortune"], [1, "Chaos Orb"], [1, "Regrowth"]
+      ],
+      "side": [[3, "Blue Elemental Blast"], [2, "Red Elemental Blast"], [2, "Power Sink"]]
+    },
+    {
+      "name": "White Weenie",
+      "archetype": "W Aggro",
+      "colors": ["W"],
+      "author": "classic archetype",
+      "notes": "Efficient white creatures under a Crusade, backed by Swords and Armageddon.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [17, "Plains"],
+        [1, "Black Lotus"], [1, "Mox Pearl"], [1, "Sol Ring"],
+        [4, "Savannah Lions"], [4, "White Knight"], [4, "Order of Leitbur"], [4, "Order of the White Shield"], [2, "Serra Angel"],
+        [4, "Swords to Plowshares"], [4, "Crusade"], [3, "Disenchant"], [2, "Armageddon"], [2, "Wrath of God"], [1, "Balance"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Circle of Protection: Red"], [2, "Disenchant"], [2, "Karma"]]
+    },
+    {
+      "name": "Mono-Black The Rack",
+      "archetype": "B Disruption / Suicide",
+      "colors": ["B"],
+      "author": "classic archetype",
+      "notes": "Strip their hand with Hymn and Sinkhole, then finish with The Rack and Hippies.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [1, "Library of Alexandria"], [15, "Swamp"],
+        [1, "Black Lotus"], [1, "Mox Jet"], [1, "Sol Ring"],
+        [4, "Hypnotic Specter"], [4, "Order of the Ebon Hand"], [2, "Sengir Vampire"],
+        [4, "Hymn to Tourach"], [4, "Dark Ritual"], [4, "Sinkhole"], [3, "The Rack"], [2, "Disrupting Scepter"],
+        [4, "Terror"], [2, "Paralyze"],
+        [1, "Mind Twist"], [1, "Demonic Tutor"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Terror"], [2, "Paralyze"], [2, "Disrupting Scepter"]]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Mox Ruby
+
+> Mox Ruby is a retro Windows-desktop web app for Old School Magic: The Gathering (93/94). It runs on the NEOS / Atlantic 93/94 card pool and includes precon decklists with legality checking, a booster Pack Builder, a Rotisserie draft tracker, and set galleries. Built by Ted Kwartler.
+
+## Apps
+- Old School Precons: classic archetype decklists (The Deck, Erhnamgeddon, Mono-Red Burn, UR Counterburn, White Weenie, Mono-Black The Rack) with real card images (via Scryfall) and an Atlantic 93/94 legality checker.
+- Pack Builder: generate a random virtual booster from any Atlantic-legal set.
+- Rotisserie Draft: run a snake draft with your playgroup.
+- Pack Images: original set art. OS MtG Links: the old-school web ring.
+
+## NEOS / Atlantic 93/94 rules
+- Legal sets: Alpha, Beta, Arabian Nights, Antiquities, Legends, The Dark, Fallen Empires.
+- Banned (7): Bronze Tablet, Contract from Below, Darkpact, Demonic Attorney, Jeweled Bird, Rebirth, Tempest Efreet.
+- Restricted (21, max 1): the Power Nine, Balance, Braingeyser, Chaos Orb, Demonic Tutor, Library of Alexandria, Mind Twist, Regrowth, Sol Ring, Strip Mine, Wheel of Fortune, and others.
+- Deck rules: minimum 60 cards, up to 15 sideboard, max 4 of any card except basic lands. Mana burn is in effect.
+
+## Related
+- Built by Ted Kwartler: https://tedkwartler.com/
+- Card data & images: https://scryfall.com/

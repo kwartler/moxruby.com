@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moxruby.com/sitemap.xml
+
+# LLM overview: https://moxruby.com/llms.txt
