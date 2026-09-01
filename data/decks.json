@@ -93,6 +93,52 @@
         [1, "Mind Twist"], [1, "Demonic Tutor"], [1, "Chaos Orb"]
       ],
       "side": [[3, "Terror"], [2, "Paralyze"], [2, "Disrupting Scepter"]]
+    },
+    {
+      "name": "Goblins",
+      "archetype": "R Goblin Aggro",
+      "colors": ["R"],
+      "author": "classic archetype",
+      "notes": "Goblin King pumps the team, Goblin War Drums pushes damage through, and Goblin Grenade closes the game out of nowhere.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [16, "Mountain"],
+        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Sol Ring"],
+        [4, "Goblin King"], [4, "Mons's Goblin Raiders"], [4, "Goblin Balloon Brigade"], [4, "Goblin Rock Sled"], [2, "Goblin Wizard"],
+        [4, "Goblin War Drums"], [4, "Goblin Grenade"], [4, "Lightning Bolt"], [4, "Chain Lightning"],
+        [1, "Wheel of Fortune"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Shatter"], [3, "Red Elemental Blast"], [2, "Detonate"]]
+    },
+    {
+      "name": "Poison",
+      "archetype": "B/G Poison (jank)",
+      "colors": ["B", "G"],
+      "author": "classic archetype",
+      "notes": "Ten poison counters and they lose. Chip in with Pit Scorpion and Marsh Viper, spawn snakes with Serpent Generator, and clear blockers with removal.",
+      "main": [
+        [4, "Bayou"], [4, "Mishra's Factory"], [1, "Strip Mine"], [6, "Swamp"], [7, "Forest"],
+        [1, "Black Lotus"], [1, "Mox Jet"], [1, "Mox Emerald"], [1, "Sol Ring"],
+        [4, "Pit Scorpion"], [4, "Marsh Viper"], [3, "Serpent Generator"],
+        [4, "Hymn to Tourach"], [4, "Terror"], [3, "Sinkhole"], [4, "Dark Ritual"], [4, "Giant Growth"],
+        [1, "Demonic Tutor"], [1, "Regrowth"], [1, "Mind Twist"], [1, "Chaos Orb"]
+      ],
+      "side": [[2, "Deathgrip"], [3, "Terror"], [2, "Tsunami"]]
+    },
+    {
+      "name": "Winter Orb Prison",
+      "archetype": "R Prison (best guess for 'a card every turn')",
+      "colors": ["R"],
+      "author": "classic archetype",
+      "notes": "Best guess for the deck you were thinking of: Winter Orb locks everyone to untapping one land per turn, but your Fellwar Stones, Sol Ring, and Black Lotus keep your mana flowing while the opponent is stuck playing about one card a turn. Icy Manipulator and Meekstone hold their board down; burn finishes. Tell me if you meant a different mono-red deck.",
+      "main": [
+        [4, "Mishra's Factory"], [1, "Strip Mine"], [19, "Mountain"],
+        [1, "Black Lotus"], [1, "Mox Ruby"], [1, "Sol Ring"], [4, "Fellwar Stone"],
+        [4, "Winter Orb"], [2, "Icy Manipulator"], [2, "Meekstone"],
+        [4, "Goblin Balloon Brigade"], [4, "Dragon Whelp"],
+        [4, "Lightning Bolt"], [4, "Chain Lightning"], [3, "Fireball"],
+        [1, "Wheel of Fortune"], [1, "Chaos Orb"]
+      ],
+      "side": [[3, "Shatter"], [2, "Red Elemental Blast"], [2, "Detonate"]]
     }
   ]
 }
